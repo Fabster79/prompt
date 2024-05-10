@@ -1,16 +1,4 @@
-
-You: 
-- ![User](https://lh3.googleusercontent.com/a/ALm5wu0EmudHqRUJzwsr1nd3WITnI9UT6sWnnZrGuE5p=s96-c) 
-
-
-You
-
-
-
-
-
-![Uploaded image](https://files.oaiusercontent.com/file-Wfrl2vEw9wKLJkZPEhE6aIfo?se=2024-05-10T09%3A30%3A28Z&sp=r&sv=2023-11-03&sr=b&rscc=max-age%3D299%2C%20immutable&rscd=attachment%3B%20filename%3Dbad-dashboard-examples-1.webp&sig=YcXIsTPxoQOaqkZ6TUG5B6TckkBH3/mY%2BW0XRPMto8s%3D) 
-
+*You:*
 Stell Dir vor, Du bist ein Data & Analytics Experte, der sich auf die Erstellung von Dashboards spezialisiert hat. Du hast schon hunderte Dashboard gestaltet, und orientierst Dich dabei an den GESTALT Prinzipien, nutzt präattentive Merkmale und hast die Farbenlehre verinnerlicht. Deine Vorbilder sind Edward Tufte, Stephen Few, Andy Kirk und Cole Nussbaumer Knaflic.
 Du Arbeitest mit mir zusammen. Ich möchte, dass Du mein Dashboard bewertest. Du sollst mir auch sagen, was ich besser machen kann. Es ist okay, deutlich zu werden und auch negative Kritik zu äußern. Schließlich möchte ich besser werden. 
 Bitte bewerte insbesondere auch folgende Aspekte: 
@@ -23,15 +11,7 @@ Bitte bewerte insbesondere auch folgende Aspekte:
 7.	Informationsdichte
 Das Dashboard basiert auf dem Datensatz Superstore. Es geht um Vertriebsdaten. Empfänger der Dashboards sind Führungskräfte und Manager, die für den Vertrieb bei Superstore zuständig sind.
 
-ChatGPT: 
-- ChatGPT
-
-ChatGPT
-
-
-
-
-
+*ChatGPT*: 
 Betrachten wir dein Dashboard im Detail. Es gibt mehrere Aspekte, die verbessert werden können, um die Effektivität und Benutzerfreundlichkeit zu erhöhen. Lass uns auf die von dir genannten Punkte eingehen:
 ### 1. Klarheit und Lesbarkeit 
 - **Problem** : Das Dashboard wirkt überladen. Die Vielzahl an unterschiedlichen Informationsblöcken macht es schwer, schnell spezifische Daten zu erfassen. 
@@ -57,23 +37,8 @@ Betrachten wir dein Dashboard im Detail. Es gibt mehrere Aspekte, die verbessert
 
 Die Anwendung dieser Vorschläge sollte die Qualität und Effektivität deines Dashboards erheblich verbessern, sodass es für die Zielgruppe von Führungskräften im Vertrieb tatsächlich einen Mehrwert bietet.
 
-You: 
-- ![User](https://lh3.googleusercontent.com/a/ALm5wu0EmudHqRUJzwsr1nd3WITnI9UT6sWnnZrGuE5p=s96-c) 
-
-
-You
-
-
-
+*You:*
 Ganz ehrlich und umgangssprachlich, wie findest Du es ?
 
-ChatGPT: 
-- ChatGPT
-
-ChatGPT
-
-
-
-
-
+*ChatGPT:*
 Ganz ehrlich? Das Dashboard ist ein ziemliches Durcheinander. Es wirkt, als hätte man versucht, jede erdenkliche Information darauf zu packen, ohne zu überlegen, was wirklich wichtig ist. Es ist überladen, und die vielen verschiedenen Arten von Informationen und Darstellungsformen machen es schwer, sich zurechtzufinden. Das ist nicht nur ineffizient, sondern auch frustrierend, besonders wenn man schnell entscheidende Daten braucht. Es sieht aus, als bräuchte es eine gründliche Überarbeitung, um wirklich nützlich zu sein. Man müsste stark entrümpeln und sich auf das Wesentliche konzentrieren, damit es nicht nur aussieht wie eine bunte Info-Wundertüte, sondern ein professionelles Tool für Entscheidungsträger wird.
