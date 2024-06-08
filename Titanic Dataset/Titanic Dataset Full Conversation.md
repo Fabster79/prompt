@@ -103,6 +103,8 @@ The survival ratio of the passengers in the dataset is approximately 38.20%. Thi
 
 >Prompt: What was the age distribution of the passengers in buckets of 10 years? Please show as table.
 
+![image info](https://github.com/Fabster79/prompt/blob/main/Titanic%20Dataset/Img1.%20Age%20Distribution%20of%20Titanic%20Passengers%20in%20Buckets%20of%2010%20Years.png?raw=true)
+
 The bar chart above shows the age distribution of the Titanic passengers in buckets of 10 years. It provides a visual representation of how many passengers fall into each age group.
 
 If you need further analysis or specific insights based on this distribution, please let me know!
@@ -111,11 +113,14 @@ If you need further analysis or specific insights based on this distribution, pl
 
 >Prompt: Please create a horizontal barchart for the survial ratio per passenger class.
 
+![image info](https://github.com/Fabster79/prompt/blob/main/Titanic%20Dataset/Img2.%20Survivial%20Ratio%20by%20passenger%20Class.png?raw=true)
 Here is the horizontal bar chart showing the survival ratio per passenger class. It indicates the proportion of survivors in each class. If you need further analysis or another visualization, please let me know!
 
 ----
 
 >Prompt: Can you change the sort order to show 1st class on top ?
+
+![image info](https://github.com/Fabster79/prompt/blob/main/Titanic%20Dataset/Img3.%20Survivial%20Ratio%20by%20passenger%20Class%20sorted.png?raw=true)
 
 The horizontal bar chart has been updated to show the 1st class on top, followed by 2nd and 3rd classes. If you have any more requests or need further modifications, feel free to let me know!
 
@@ -131,6 +136,13 @@ To visualize the distribution of genders among the passengers on the Titanic, a 
 
 Which type of chart would you like to create?
 
+![image info](https://github.com/Fabster79/prompt/blob/main/Titanic%20Dataset/Img4.%20Gender%20distribution%20barchart.png?raw=true)
+![image info](https://github.com/Fabster79/prompt/blob/main/Titanic%20Dataset/Img5.%20Gender%20distribution%20piechart.png?raw=true)
+![image info](https://github.com/Fabster79/prompt/blob/main/Titanic%20Dataset/Img6.%20Gender%20distribution%20barchart%20stacked.png?raw=true)
+
+
+
+
 ----
 
 >Prompt: Could you create a boxplot showing age destribution by class? 
@@ -138,8 +150,72 @@ Which type of chart would you like to create?
 Here is the boxplot showing the age distribution by passenger class on the Titanic. The plot illustrates the range, median, and quartiles of ages within each class. If you have any other requests or need further analysis, feel free to ask!
 
 
-![image info]("C:\Users\FAH\Documents\GitHub\prompt\Titanic Dataset\Img7. Boxplot age distribution by class.png")
+![image info](https://github.com/Fabster79/prompt/blob/main/Titanic%20Dataset/Img7.%20Boxplot%20age%20distribution%20by%20class.png?raw=true)
 
 
 ----
+
+>Prompt: Is there a relation between gender and survival rate ?
+
+The survival rates by gender are as follows:
+
+- Female: 72.75%
+- Male: 19.10%
+
+This indicates a significant difference in survival rates between genders, with females having a much higher survival rate compared to males. Would you like a visualization of this data?
+
+----
+
+>Prompt: How strong is this relation?
+
+The chi-square test results are:
+
+- Chi-square statistic: 363.62
+- p-value: \( 4.59 \times 10^{-81} \)
+
+The extremely low p-value indicates that the relationship between gender and survival rate is statistically significant. In other words, there is a very strong association between gender and the likelihood of survival on the Titanic.
+
+----
+
+>Prompt: What about corellation coefficent?
+
+The correlation coefficient between gender (converted to numeric) and survival is approximately 0.529. 
+
+This indicates a moderate positive correlation, suggesting that being female is moderately associated with a higher likelihood of survival on the Titanic.
+
+----
+
+>Prompt: Is there a relation between age group (in steps of 10 years) and survival rate ?
+
+The survival rates by age group (in steps of 10 years) are as follows:
+
+- 0-10 years: 60.98%
+- 10-20 years: 39.16%
+- 20-30 years: 36.92%
+- 30-40 years: 42.24%
+- 40-50 years: 38.52%
+- 50-60 years: 45.71%
+- 60-70 years: 31.25%
+- 70-80 years: 14.29%
+
+These results suggest that the youngest age group (0-10 years) had the highest survival rate, while the oldest age group (70-80 years) had the lowest survival rate. The survival rates for other age groups show some variation but are generally lower than that of the youngest age group.
+
+Would you like a visualization of this data or further statistical analysis?
+
+----
+
+>Prompt: Can you create a heatmap of age group and passenger class that shows survival rate? Please use read and blue as colors.
+
+Here is the heatmap showing the survival rate by age group and passenger class. The heatmap uses red and blue colors, with annotations indicating the survival rates for each combination of age group and passenger class.
+
+![image info](https://github.com/Fabster79/prompt/blob/main/Titanic%20Dataset/Img7.%20Boxplot%20age%20distribution%20by%20class.png?raw=true)
+
+----
+
+>Prompt: Can you recreate the heatmap. Keep the coloring with the survival rate but show the total numbers of people that survived and in paranthesis people that did not survive.
+
+Here is the heatmap showing the survival rate by age group and passenger class, with the total number of people who survived and the number who did not survive in parentheses. The age groups are sorted with the oldest on top.
+
+![image info](https://github.com/Fabster79/prompt/blob/main/Titanic%20Dataset/Img7.%20Boxplot%20age%20distribution%20by%20class.png?raw=true)
+
 
