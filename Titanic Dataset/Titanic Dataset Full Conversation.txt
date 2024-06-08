@@ -1,0 +1,19 @@
+The Titanic dataset contains the following columns:
+
+1. **pclass**: Passenger class (1, 2, or 3).
+2. **survived**: Survival status (0 = No, 1 = Yes).
+3. **name**: Name of the passenger.
+4. **sex**: Gender of the passenger.
+5. **age**: Age of the passenger.
+6. **sibsp**: Number of siblings/spouses aboard the Titanic.
+7. **parch**: Number of parents/children aboard the Titanic.
+8. **ticket**: Ticket number.
+9. **fare**: Passenger fare.
+10. **cabin**: Cabin number.
+11. **embarked**: Port of embarkation (C = Cherbourg; Q = Queenstown; S = Southampton).
+12. **boat**: Lifeboat number.
+13. **body**: Body identification number.
+14. **home.dest**: Home/destination.
+
+Let me know if you need any specific analysis or visualization based on this dataset.
+
