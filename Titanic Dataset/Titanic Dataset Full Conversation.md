@@ -208,7 +208,7 @@ Would you like a visualization of this data or further statistical analysis?
 
 Here is the heatmap showing the survival rate by age group and passenger class. The heatmap uses red and blue colors, with annotations indicating the survival rates for each combination of age group and passenger class.
 
-![image info](https://github.com/Fabster79/prompt/blob/main/Titanic%20Dataset/Img7.%20Boxplot%20age%20distribution%20by%20class.png?raw=true)
+![image info](https://github.com/Fabster79/prompt/blob/main/Titanic%20Dataset/Img8.%20Heatmap%20of%20Surrvival%20Rate%20by%20Passenger%20Class.png?raw=true)
 
 ----
 
@@ -216,6 +216,6 @@ Here is the heatmap showing the survival rate by age group and passenger class. 
 
 Here is the heatmap showing the survival rate by age group and passenger class, with the total number of people who survived and the number who did not survive in parentheses. The age groups are sorted with the oldest on top.
 
-![image info](https://github.com/Fabster79/prompt/blob/main/Titanic%20Dataset/Img7.%20Boxplot%20age%20distribution%20by%20class.png?raw=true)
+![image info](https://github.com/Fabster79/prompt/blob/main/Titanic%20Dataset/Img9.%20Heatmap%20of%20Totals%20by%20Passenger%20Class.png?raw=true)
 
 
