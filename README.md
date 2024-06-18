@@ -1,5 +1,5 @@
 ## 1 Dashboarding Analysis Prompts ##
-## 2 Prompts and images and other items from Digital Exchange Presentation ##
+## 2 Prompts and images and other items from DigitalXchange Presentation ##
 ### Erzähl mir von den Daten / Gummersbach, 22.06.2024### 
 
 2.1 All Prompts
