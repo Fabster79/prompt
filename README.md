@@ -1,14 +1,24 @@
 ## 1 Dashboarding Analysis Prompts ##
-## 2 Prompts and Content Items from Digital Exchange Presentation ##
+## 2 Prompts and images and other items from Digital Exchange Presentation ##
+### Erzähl mir von den Daten / Gummersbach, 22.06.2024### 
+
 2.1 All Prompts
 
-[All Prompts] (https://github.com/Fabster79/prompt/blob/6638e48b3b3d162d64aadc3bccbeffb22f6d03ae/Titanic%20Dataset/Titanic%20Questions.md)
+[Prompts](Titanic%20Dataset/Titanic%20Questions.md)
 
 2.2 Complete Conversation
-Link
+
+[Complete Conversation](Titanic%20Dataset/Titanic%20Dataset%20Full%20Conversation.md)
+
 2.3 Dataset
+
+[Dataset](Titanic%20Dataset/Complete%20Conversatiob.md)
 
 2.4 Python Code
 
-2.5 Spotfiy Link Offenbarung 23
+[Prediction](Titanic%20Dataset/Complete%20Conversatiob.md)
+
+2.5 Spotfiy Link Offenbarung 23 
+
+[Die Titanic darf nie Ankommen](https://open.spotify.com/album/6waeaRCI5HTFTmkQtghMVS)
 
