@@ -218,4 +218,116 @@ Here is the heatmap showing the survival rate by age group and passenger class, 
 
 ![image info](https://github.com/Fabster79/prompt/blob/main/Titanic%20Dataset/Img9.%20Heatmap%20of%20Totals%20by%20Passenger%20Class.png?raw=true)
 
+----
+
+>Prompt: Can you create a model to predict survival? I want to enter age, sex and class of a person. 
+
+Sure, I can create a model to predict survival based on the age, sex, and class of a person. Here’s the step-by-step process:
+
+1. **Data Preparation**: Clean the data, handle missing values, and encode categorical variables.
+2. **Feature Selection**: Select the relevant features (age, sex, pclass).
+3. **Train-Test Split**: Split the data into training and testing sets.
+4. **Model Training**: Train a machine learning model (e.g., logistic regression).
+5. **Model Evaluation**: Evaluate the model's performance.
+6. **Prediction Function**: Create a function to make predictions based on age, sex, and class.
+
+Let's start with data preparation and feature selection.
+
+The logistic regression model achieved an accuracy of approximately 77.48% on the test set. Here are the detailed performance metrics:
+
+- **Precision**: 
+  - Class 0 (Did not survive): 0.75
+  - Class 1 (Survived): 0.82
+- **Recall**:
+  - Class 0 (Did not survive): 0.89
+  - Class 1 (Survived): 0.64
+- **F1-Score**:
+  - Class 0 (Did not survive): 0.81
+  - Class 1 (Survived): 0.72
+
+### Prediction Function
+Now, let's create a function to predict survival based on age, sex, and class.
+
+```python
+def predict_survival(age, sex, pclass):
+    # Encode the input features
+    sex_encoded = label_encoder.transform([sex])[0]
+    
+    # Prepare the feature array
+    features = [[pclass, sex_encoded, age]]
+    
+    # Predict the survival
+    prediction = model.predict(features)
+    
+    # Return the prediction
+    return "Survived" if prediction[0] == 1 else "Did not survive"
+```
+
+You can use this function to make predictions. For example:
+```python
+print(predict_survival(29, 'female', 1))
+```
+
+Would you like me to test this function with a few examples?
+
+
+----
+
+>Prompt: Please give me the python code so i can run this locally.
+
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+from sklearn.impute import SimpleImputer
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, classification_report
+
+# Load the dataset
+file_path = 'Titanic Dataset.csv'  # Update this with the correct path to your dataset
+titanic_df = pd.read_csv(file_path)
+
+# Selecting relevant features
+features = titanic_df[['pclass', 'sex', 'age']]
+target = titanic_df['survived']
+
+# Handling missing values in 'age'
+imputer = SimpleImputer(strategy='median')
+features['age'] = imputer.fit_transform(features[['age']])
+
+# Encoding categorical variable 'sex'
+label_encoder = LabelEncoder()
+features['sex'] = label_encoder.fit_transform(features['sex'])
+
+# Splitting the data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(features, target, test_size=0.2, random_state=42)
+
+# Training the logistic regression model
+model = LogisticRegression()
+model.fit(X_train, y_train)
+
+# Evaluating the model
+y_pred = model.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+report = classification_report(y_test, y_pred)
+
+print(f"Model Accuracy: {accuracy}")
+print(f"Classification Report:\n{report}")
+
+# Prediction function
+def predict_survival(age, sex, pclass):
+    # Encode the input features
+    sex_encoded = label_encoder.transform([sex])[0]
+    
+    # Prepare the feature array
+    features = [[pclass, sex_encoded, age]]
+    
+    # Predict the survival
+    prediction = model.predict(features)
+    
+    # Return the prediction
+    return "Survived" if prediction[0] == 1 else "Did not survive"
+
+# Example usage
+print(predict_survival(29, 'female', 1))
+print(predict_survival(40, 'male', 3))
 
