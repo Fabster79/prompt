@@ -1,7 +1,8 @@
 ## 1 Dashboarding Analysis Prompts ##
 ## 2 Prompts and Content Items from Digital Exchange Presentation ##
 2.1 All Prompts
-[Link](Titanic Dataset/Titanic Questions.md) 
+
+[All Prompts] (Titanic%20Dataset/Titanic%20Questions.md)
 
 2.2 Complete Conversation
 Link
