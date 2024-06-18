@@ -12,11 +12,11 @@
 
 2.3 Dataset
 
-[Dataset](Titanic%20Dataset/Complete%20Conversatiob.md)
+[Dataset](Titanic%20Dataset/Titanic%20Dataset.csv)
 
 2.4 Python Code
 
-[Prediction](Titanic%20Dataset/Complete%20Conversatiob.md)
+[Prediction](Titanic%20Dataset/predict_titanic.py)
 
 2.5 Spotfiy Link Offenbarung 23 
 
