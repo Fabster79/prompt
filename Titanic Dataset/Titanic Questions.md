@@ -61,18 +61,4 @@
 The story should deal with the chance of survival, meaning survived=1.Also it should show chances of survival depending on sex and class.
 Please create a narative for 6 personas, by on age and class, based on average rate of survival and average age, based on the combination of sex and class. Think of some names for the personas that could be realistic (use real titanic passenger names as a reference), a little text that wraps up the findigs and brings some emotions to the story.
 
-
-
-
-
-
-
-
-
-
 ----
-Please read the dataset.
-
-How do you think is the quality of this dataset?
-
-Please create a table to show basic statistics about the dataset quality.
