@@ -2,7 +2,7 @@
 ## 2 Prompts and Content Items from Digital Exchange Presentation ##
 2.1 All Prompts
 
-[All Prompts] (Titanic%20Dataset/Titanic%20Questions.md)
+[All Prompts] (https://github.com/Fabster79/prompt/blob/6638e48b3b3d162d64aadc3bccbeffb22f6d03ae/Titanic%20Dataset/Titanic%20Questions.md)
 
 2.2 Complete Conversation
 Link
