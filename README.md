@@ -1,6 +1,6 @@
-## 1 Dashboarding Analysis Prompts ##
-## 2 Prompts and images and other items from DigitalXchange Presentation ##
-### Erzähl mir von den Daten / Gummersbach, 22.06.2024 ### 
+## 1. Dashboarding Analysis Prompts ##
+## 2. Prompts images and other items from KI-Navigator presentation ##
+### Sprich mit  den Daten / Nürnberg, 21.11.2024 ### 
 
 2.1 All Prompts
 
