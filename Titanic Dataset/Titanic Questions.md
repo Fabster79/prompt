@@ -46,14 +46,14 @@
 
 4.6 Can you recreate the heatmap. Keep the coloring with the survival rate but show the total numbers of people that survived and in paranthesis people that did not survive.
 
-**5 Vorhersage **
+**5 Vorhersage**
 
 5.1 Can you create a model to predict survival? I want to enter age, sex and class of a person. 
 
 5.2 Please give me the python code so i can run this locally
 
 
-**6 Storytelling **
+**6 Storytelling**
 
 6.1 What are the parts and the structure of a good data story?
 
