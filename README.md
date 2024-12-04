@@ -22,3 +22,7 @@
 
 [Die Titanic darf nie Ankommen](https://open.spotify.com/album/6waeaRCI5HTFTmkQtghMVS)
 
+## 3. Besuchte Städte 2024  ##
+### Karte der Besuchten Städte 2024 ###
+## 3.1 Python Skript
+[Prompt](2024/prompt.md)
